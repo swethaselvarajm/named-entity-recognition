@@ -6,7 +6,9 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 We propose a deep neural network (NN) architecture, namely the bidirectional Long-Short Term Memory (Bi-LSTM) based model for NER. Based on existing gold standard datasets, we evaluated and compared several models for identifying biomedical-named entities. Our deep NN-based Bi-LSTM model using word and character level embeddings outperforms CRF and Bi-LSTM using only word-level embeddings significantly.
-![image](https://github.com/user-attachments/assets/92985b53-30d5-4c1b-a8dd-79dc2176f44d)
+
+![image](https://github.com/user-attachments/assets/df1c6698-a0dc-4e8e-8976-75628a83741b)
+
 
 ## DESIGN STEPS
 
@@ -159,11 +161,13 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/31eb990b-a9e2-424e-bd2b-ade2c2f44af0)
+![image](https://github.com/user-attachments/assets/a1d3920b-7313-47db-8828-15077ee07e7b)
 
-![image](https://github.com/user-attachments/assets/6254cbe1-c777-4563-9c25-9bef8f1976ab)
+![image](https://github.com/user-attachments/assets/6b4fb182-c6b3-4fdb-87e4-0465504ac59f)
 
 ### Sample Text Prediction
-Include your sample text prediction here.
+![image](https://github.com/user-attachments/assets/bceef801-23db-4ed6-9957-0585118f1747)
+
 
 ## RESULT
+Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
